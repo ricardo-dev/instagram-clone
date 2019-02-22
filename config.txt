@@ -1,0 +1,10 @@
+yarn add native-base
+yarn add react-navigation
+
+icones
+	yarn add react-native-vector-icons
+	react-native link
+	https://oblador.github.io/react-native-vector-icons/
+
+double click
+	npm install --save react-native-double-click
