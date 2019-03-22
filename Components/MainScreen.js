@@ -20,8 +20,8 @@ class MainScreen extends Component{
                       style={{ paddingLeft:10 }} />,
     title: 'Instagram',
     headerTitleStyle: {
-        textAlign:"center", 
-        flex:1 
+        textAlign:"center",
+        flex:1
      },
     headerRight: <Icon name="send"
                        size={18}
@@ -60,7 +60,7 @@ const AppTabNavigator = createMaterialTopTabNavigator({
     }
     },{
     animationEnabled: true,
-    swipeEnabled: true,
+    swipeEnabled: false,
     lazy: true,
     tabBarPosition: "bottom",
     tabBarOptions:{
